@@ -44,6 +44,7 @@ img * {
 .container-big {
     max-width: 1150px;
     margin: auto;
+    padding: 0 10px;
 }
 
 .container-small {
@@ -54,7 +55,6 @@ img * {
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin: 0px -15px;
 }
 
 .col {
@@ -89,7 +89,7 @@ nav .row {
 nav .col {
     display: flex;
     align-items: center;
-    padding: 10px 0px;
+    padding: 15px 0px;
 }
 
 nav ul {
@@ -106,4 +106,33 @@ nav button {
     background-color: white;
 }
 
+nav .fa-solid {
+    color: white;
+    font-size: x-large;
+    display: none;
+}
+
 /*----- /HEADER */
+
+/* TABLET RESPONSIVE -----*/
+
+@media screen and (max-width: 992px) {
+
+    nav ul,
+    nav button {
+        display: none;
+    }
+
+    nav .fa-solid {
+        display: block;
+    }
+}
+
+/*----- TABLET RESPONSIVE */
+
+/* MOBILE RESPONSIVE -----*/
+
+@media screen and (max-width: 768px) {}
+
+
+/*----- MOBILE RESPONSIVE */
