@@ -1,7 +1,7 @@
 /* DEBUG */
- /* header * {
+/* header * {
     border: 1px dashed violet;
-} */
+}  */
 
 /* FONT FAMILY -----*/
 body * {
@@ -12,7 +12,7 @@ body * {
 
 /* RESET -----*/
 
-body * {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -20,6 +20,7 @@ body * {
 
 a {
     text-decoration: none;
+    color: unset;
 }
 
 ol,
@@ -32,16 +33,28 @@ button {
     cursor: pointer;
 }
 
-img {
+img * {
     width: 100%;
 }
 
 /*----- /RESET */
 
 /* GRID LAYOUT -----*/
+
+.container-big {
+    max-width: 1150px;
+    margin: auto;
+}
+
+.container-small {
+    max-width: 900px;
+    margin: auto;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
+    margin: 0px -15px;
 }
 
 .col {
@@ -52,4 +65,45 @@ img {
     flex-grow: 1;
 }
 
-/*---- /GRID LAYOUT */
+/*----- /GRID LAYOUT */
+
+/* GENERAL -----*/
+
+.button-default {
+    border-radius: 15px;
+    padding: 5px 12px;
+}
+
+/*----- GENERAL */
+
+/* HEADER -----*/
+
+nav {
+    background-color: #0084fd;
+}
+
+nav .row {
+    justify-content: space-between;
+}
+
+nav .col {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    padding: 0 20px;
+    color: white;
+}
+
+nav button {
+    color: black;
+    background-color: white;
+}
+
+/*----- /HEADER */
