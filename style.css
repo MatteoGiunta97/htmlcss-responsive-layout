@@ -1,0 +1,55 @@
+/* DEBUG */
+ /* header * {
+    border: 1px dashed violet;
+} */
+
+/* FONT FAMILY -----*/
+body * {
+    font-family: "PT Sans", sans-serif;
+}
+
+/*----- /FONT FAMILY */
+
+/* RESET -----*/
+
+body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+}
+
+/*----- /RESET */
+
+/* GRID LAYOUT -----*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    padding: 0px 15px;
+}
+
+.col-grow {
+    flex-grow: 1;
+}
+
+/*---- /GRID LAYOUT */
