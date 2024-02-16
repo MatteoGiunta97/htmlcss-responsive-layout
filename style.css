@@ -155,10 +155,11 @@ nav .fa-solid {
 
 /* MOBILE RESPONSIVE -----*/
 
-@media screen and (max-width: 768px) {}
-
-.promo .card {
-    display: block;
+@media screen and (max-width: 768px) {
+    .promo .col {
+        width: 100%;
+    }
 }
+
 
 /*----- /MOBILE RESPONSIVE */
