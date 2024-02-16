@@ -88,7 +88,7 @@ nav .row {
 nav .col {
     display: flex;
     align-items: center;
-    padding: 10px 0px;
+    margin: 10px 0px;
 }
 
 nav ul {
@@ -153,5 +153,8 @@ nav .fa-solid {
 
 @media screen and (max-width: 768px) {}
 
+.promo .card {
+    display: block;
+}
 
 /*----- /MOBILE RESPONSIVE */
