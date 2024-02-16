@@ -41,27 +41,23 @@ img * {
 
 /* GRID LAYOUT -----*/
 
-.container-big {
-    max-width: 1150px;
+.container {
+    max-width: 1160px;
     margin: auto;
     padding: 0 10px;
-}
-
-.container-small {
-    max-width: 900px;
-    margin: auto;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 -10px;
 }
 
 .col {
-    padding: 0px 15px;
+    padding: 0 10px;
 }
 
-.col-grow {
+.grow {
     flex-grow: 1;
 }
 
@@ -80,6 +76,9 @@ img * {
 
 nav {
     background-color: #0084fd;
+    position: sticky;
+    top: 0;
+    right: 0;
 }
 
 nav .row {
@@ -89,7 +88,7 @@ nav .row {
 nav .col {
     display: flex;
     align-items: center;
-    padding: 15px 0px;
+    padding: 10px 0px;
 }
 
 nav ul {
@@ -114,6 +113,26 @@ nav .fa-solid {
 
 /*----- /HEADER */
 
+
+/* MAIN ----------*/
+
+/* PROMO SECTION -----*/
+.promo .col {
+   width: calc(100%/3);
+   margin: 10px 0;
+}
+
+.promo .card {
+    background-color: #b5ddff;
+    height: 100%;
+    border-radius: 10px;
+}
+/* -----/PROMO SECTION */
+
+/*---------- /MAIN */
+
+
+
 /* TABLET RESPONSIVE -----*/
 
 @media screen and (max-width: 992px) {
@@ -128,11 +147,11 @@ nav .fa-solid {
     }
 }
 
-/*----- TABLET RESPONSIVE */
+/*----- /TABLET RESPONSIVE */
 
 /* MOBILE RESPONSIVE -----*/
 
 @media screen and (max-width: 768px) {}
 
 
-/*----- MOBILE RESPONSIVE */
+/*----- /MOBILE RESPONSIVE */
