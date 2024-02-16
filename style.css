@@ -131,25 +131,29 @@ nav .fa-solid {
     background-color: #b5ddff;
     color: #5a6e7f;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 20px;
     padding-top: 35px;
-    padding-left: 25px;
-    display: flex;
-
+    text-align: center;
 }
 
-.promo .card .left {
+.promo .grow .card {
+    display: flex;
+    padding-left: 25px;
+    text-align: left;
+}
+
+.promo .card {
     font-weight: 600;
     font-size: 17px;
 }
 
-.promo .card .left h3 {
+.promo .card h3 {
     color: #0084fd;
     font-size: 22px;
     padding-bottom: 30px;
 }
 
-.promo .card .left p {
+.promo .card p {
     padding-bottom: 30px;
 }
 
@@ -162,13 +166,17 @@ nav .fa-solid {
     letter-spacing: 3px;
 }
 
-.promo .card .right img {
+.promo .card img {
     max-width: 250px;
     margin-right: 80px;
     padding-top: 20px;
     display: block;
 }
 
+.promo .card .fa-solid {
+    color: #0084fd;
+    font-size: 70px;
+}
 /* -----/PROMO SECTION */
 
 /*---------- /MAIN */
@@ -187,7 +195,7 @@ nav .fa-solid {
     nav .fa-solid {
         display: block;
     }
-    
+
     .promo .grow .card {
         margin: 0 auto;
         flex-wrap: wrap;
@@ -202,7 +210,7 @@ nav .fa-solid {
     .promo .col {
         width: 100%;
     }
-  
+
     .promo .grow .card {
         margin: 0 auto;
         flex-wrap: wrap;
