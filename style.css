@@ -6,6 +6,7 @@
 /* FONT FAMILY -----*/
 body * {
     font-family: "PT Sans", sans-serif;
+    line-height: 1.5;
 }
 
 /*----- /FONT FAMILY */
@@ -70,7 +71,7 @@ section {
 /* GENERAL -----*/
 
 .button-default {
-    border-radius: 15px;
+    border-radius: 25px;
     padding: 5px 12px;
 }
 
@@ -128,6 +129,7 @@ nav .fa-solid {
 
 .promo .card {
     background-color: #b5ddff;
+    color: #5a6e7f;
     height: 100%;
     border-radius: 10px;
     padding-top: 35px;
@@ -139,6 +141,25 @@ nav .fa-solid {
 .promo .card .left {
     font-weight: 600;
     font-size: 17px;
+}
+
+.promo .card .left h3 {
+    color: #0084fd;
+    font-size: 22px;
+    padding-bottom: 30px;
+}
+
+.promo .card .left p {
+    padding-bottom: 30px;
+}
+
+.promo .button-default {
+    background-color: #0084fd;
+    color: white;
+    padding: 10px 45px;
+    font-size: inherit;
+    font-weight: inherit;
+    letter-spacing: 3px;
 }
 
 .promo .card .right img {
