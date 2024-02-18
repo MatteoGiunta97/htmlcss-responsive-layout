@@ -358,6 +358,10 @@ nav .fa-solid {
 
 .about-us .right {
     width: 30%;
+    padding: 40px;
+    position: relative;
+    top: 0;
+    right: 0;
 }
 
 .about-us .left>* {
@@ -379,16 +383,32 @@ nav .fa-solid {
     color: #9792e4;
 }
 
+.about-us .right img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about-us .right .fa-quote-left {
+    position: absolute;
+    top: 50px;
+    right: 40px;
+    font-size: 70px;
+}
+
+.about-us .right h3 {
+    font-size: 22px;
+}
+
 .about-us .right button {
     background-color: #9792e4;
     color: white;
     padding: 5px 15px;
 }
 
-.about-us .right img {
-    width: 100%;
-    border-radius: 50%;
+.about-us .right button i {
+    padding-right: 5px;
 }
+
 
 /* -----/ABOUT US SECTION */
 
@@ -452,6 +472,10 @@ nav .fa-solid {
     }
 
     .benefits .col {
+        width: 100%;
+    }
+
+    .about-us .col {
         width: 100%;
     }
 }
