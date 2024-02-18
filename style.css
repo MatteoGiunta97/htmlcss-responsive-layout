@@ -374,6 +374,10 @@ nav .fa-solid {
     .testimonials .left {
         width: 50%;
     }
+
+    .benefits .col {
+        width: calc(100%/2);
+    }
 }
 
 /*----- /TABLET RESPONSIVE */
@@ -397,6 +401,10 @@ nav .fa-solid {
     }
 
     .testimonials .left {
+        width: 100%;
+    }
+
+    .benefits .col {
         width: 100%;
     }
 }
