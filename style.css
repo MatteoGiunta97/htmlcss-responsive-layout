@@ -461,7 +461,17 @@ nav .fa-solid {
 
 /*---------- /MAIN */
 
+/* FOOTER ----------*/
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+}
 
+footer .row {
+    flex-direction: column;
+}
+/*---------- FOOTER */
 
 /* TABLET RESPONSIVE -----*/
 
