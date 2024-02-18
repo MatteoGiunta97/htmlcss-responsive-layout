@@ -306,7 +306,7 @@ nav .fa-solid {
 }
 
 .benefits .intro-text h2 {
-    font-size: 34px;
+    font-size: 50px;
     text-align: center;
     padding: 50px 0;
     color: white;
@@ -319,6 +319,29 @@ nav .fa-solid {
 .benefits .card {
     background-color: white;
     color: #9792e4;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.benefits .card>*{
+    padding-bottom: 15px;
+}
+
+.benefits .card h3 {
+    font-size: 55px;
+}
+
+.benefits .card h4 {
+    font-size: 20px;
+}
+
+.benefits .card button {
+    background-color: #9792e4;
+    color: white;
+    font: inherit;
+    letter-spacing: 2px;
+    padding: 10px 50px;
 }
 /* -----/BENEFITS SECTION */
 
