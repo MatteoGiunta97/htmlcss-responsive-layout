@@ -79,11 +79,16 @@ section {
 
 /* HEADER -----*/
 
-nav {
-    background-color: #0084fd;
+header {
     position: sticky;
     top: 0;
     right: 0;
+    z-index: 10;
+    box-shadow: 0px 2px #0000008e;
+}
+
+nav {
+    background-color: #0084fd;
 }
 
 nav .row {
@@ -108,6 +113,8 @@ nav li {
 nav button {
     color: black;
     background-color: white;
+    font-size: 15px;
+    margin-left: 20px;
 }
 
 nav .fa-solid {
@@ -177,6 +184,7 @@ nav .fa-solid {
     color: #0084fd;
     font-size: 70px;
 }
+
 /* -----/PROMO SECTION */
 
 /* PLANNING SECTION -----*/
@@ -192,25 +200,37 @@ nav .fa-solid {
 
 .planning .left {
     width: 50%;
-    padding-left: 130px;
-    
+    padding-left: 50px;
+    padding-right: 50px;
+
 }
 
 .planning .right {
     width: 50%;
-    padding-right: 130px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .planning .img-big {
-    max-width: 400px;
+    max-width: 100%;
 }
 
 .planning .img-small {
-    max-width: 250px;
+    max-width: 70%;
 }
 
 .strategic {
     color: white;
+}
+
+.strategic img {
+    margin-bottom: 130px;
+}
+
+.strategic h2 {
+    padding-bottom: 30px;
 }
 
 .development {
@@ -219,6 +239,16 @@ nav .fa-solid {
     text-align: center;
     vertical-align: baseline;
     padding: 30px 40px;
+}
+
+.development>* {
+    padding-bottom: 20px;
+}
+
+.development button {
+    border-radius: 100%;
+    background-color: #9792e4;
+    padding: 6px 12px;
 }
 
 /* -----/PLANNING SECTION */
@@ -244,6 +274,10 @@ nav .fa-solid {
         margin: 0 auto;
         flex-wrap: wrap;
     }
+
+    .planning .img-small {
+        max-width: 100%;
+    }
 }
 
 /*----- /TABLET RESPONSIVE */
@@ -251,7 +285,9 @@ nav .fa-solid {
 /* MOBILE RESPONSIVE -----*/
 
 @media screen and (max-width: 768px) {
-    .promo .col {
+
+    .promo .col,
+    .planning .col {
         width: 100%;
     }
 
