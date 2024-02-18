@@ -324,7 +324,7 @@ nav .fa-solid {
     margin-bottom: 20px;
 }
 
-.benefits .card>*{
+.benefits .card>* {
     padding-bottom: 15px;
 }
 
@@ -343,7 +343,54 @@ nav .fa-solid {
     letter-spacing: 2px;
     padding: 10px 50px;
 }
+
 /* -----/BENEFITS SECTION */
+
+/* ABOUT US SECTION -----*/
+
+.about-us .row {
+    padding: 50px;
+}
+
+.about-us .left {
+    width: 70%;
+}
+
+.about-us .right {
+    width: 30%;
+}
+
+.about-us .left>* {
+    padding-bottom: 30px;
+    padding-right: 70px;
+}
+
+.about-us .left h2 {
+    font-size: 55px;
+    color: #9792e4;
+}
+
+.about-us .left p {
+    line-height: 2;
+}
+
+.about-us .right>* {
+    padding-bottom: 15px;
+    color: #9792e4;
+}
+
+.about-us .right button {
+    background-color: #9792e4;
+    color: white;
+    padding: 5px 15px;
+}
+
+.about-us .right img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* -----/ABOUT US SECTION */
 
 /*---------- /MAIN */
 
