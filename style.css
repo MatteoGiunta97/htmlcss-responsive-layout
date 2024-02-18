@@ -419,6 +419,44 @@ nav .fa-solid {
     color: white;
 }
 
+.get-started .container {
+    padding-top: 50px;
+}
+
+.get-started .row {
+    flex-direction: column;
+}
+
+.get-started h4 {
+    text-transform: uppercase;
+    font-weight:lighter;
+    letter-spacing: 1.5px;
+}
+
+.get-started h3 {
+    font-size: 42px;
+}
+
+.get-started h2 {
+    font-size: 72px;
+    color: #fdc15f;
+    padding: 10px 0;
+}
+
+.get-started button {
+    color: #9792e4;
+    background-color: white;
+    font-size: 18px;
+    margin-left: 20px;
+    font-family: inherit;
+    letter-spacing: 1.5px;
+    padding: 10px 50px;
+    margin: 20px 0;
+}
+
+.get-started p a {
+    text-decoration: underline;
+}
 /* -----/GET STARTED SECTION */
 
 /*---------- /MAIN */
