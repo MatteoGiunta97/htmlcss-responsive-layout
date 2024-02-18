@@ -194,21 +194,14 @@ nav .fa-solid {
 }
 
 .planning .col {
+    width: 50%;
     padding-top: 130px;
     padding-bottom: 60px;
-}
-
-.planning .left {
-    width: 50%;
     padding-left: 50px;
     padding-right: 50px;
-
 }
 
 .planning .right {
-    width: 50%;
-    padding-left: 50px;
-    padding-right: 50px;
     display: flex;
     align-items: flex-end;
 }
@@ -252,6 +245,18 @@ nav .fa-solid {
 }
 
 /* -----/PLANNING SECTION */
+
+/* TESTIMONIALS SECTION -----*/
+
+.testimonials .intro-text {
+    text-align: center;
+}
+
+.testimonials .intro-text>* {
+    padding-bottom: 30px;
+}
+
+/* -----/TESTIMONIALS SECTION */
 
 /*---------- /MAIN */
 
