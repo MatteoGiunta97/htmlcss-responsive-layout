@@ -324,6 +324,10 @@ nav .fa-solid {
     .planning .img-small {
         max-width: 100%;
     }
+
+    .testimonials .left {
+        width: 50%;
+    }
 }
 
 /*----- /TABLET RESPONSIVE */
@@ -340,6 +344,14 @@ nav .fa-solid {
     .promo .grow .card {
         margin: 0 auto;
         flex-wrap: wrap;
+    }
+
+    .testimonials .row {
+        flex-wrap: wrap;
+    }
+
+    .testimonials .left {
+        width: 100%;
     }
 }
 
