@@ -409,8 +409,17 @@ nav .fa-solid {
     padding-right: 5px;
 }
 
-
 /* -----/ABOUT US SECTION */
+
+/* GET STARTED SECTION -----*/
+
+.get-started {
+    background-color: #9792e4;
+    text-align: center;
+    color: white;
+}
+
+/* -----/GET STARTED SECTION */
 
 /*---------- /MAIN */
 
@@ -479,6 +488,5 @@ nav .fa-solid {
         width: 100%;
     }
 }
-
 
 /*----- /MOBILE RESPONSIVE */
