@@ -42,10 +42,6 @@ img * {
 
 /* GRID LAYOUT -----*/
 
-section {
-    margin-top: 50px;
-}
-
 .container {
     max-width: 1160px;
     margin: auto;
@@ -69,6 +65,11 @@ section {
 /*----- /GRID LAYOUT */
 
 /* GENERAL -----*/
+
+
+section {
+    margin-top: 50px;
+}
 
 .button-default {
     border-radius: 25px;
@@ -254,6 +255,46 @@ nav .fa-solid {
 
 .testimonials .intro-text>* {
     padding-bottom: 30px;
+}
+
+.testimonials .intro-text h4 {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.testimonials .intro-text h2 {
+    font-size: 34px;
+    color: #9792e4;
+}
+
+.testimonials .row {
+    flex-wrap: nowrap;
+    background-color: #9792e4;
+    border-radius: 50px;
+    margin: 30px 0px;
+    padding: 50px 20px;
+}
+
+.testimonials .left {
+    width: 20%;
+}
+
+.testimonials .right {
+    width: 80%;
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.testimonials .right h4 {
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.testimonials .col img {
+    width: 100%;
+    border-radius: 50%;
 }
 
 /* -----/TESTIMONIALS SECTION */
